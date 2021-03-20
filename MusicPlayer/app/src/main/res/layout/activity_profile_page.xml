@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginPage">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Profile"
+        android:textSize="40dp"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/profile"/>
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="12dp"
+        android:text="Nim        : 00000031116"
+        android:layout_gravity="center" />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Nama     : Samuel Johannes C"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Kelas      : CL"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Refrensi:"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_gravity="left" />
+    <TextView
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="12dp"
+        android:text="https://www.youtube.com/watch?v=Bsm-BlXo2SI"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="12dp"
+        android:text="https://www.youtube.com/watch?v=oh4YOj9VkVE"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="12dp"
+        android:text="https://www.youtube.com/watch?v=JkVdP-e9BCo"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="12dp"
+        android:text="https://www.youtube.com/watch?v=q7TETeyChhw"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="12dp"
+        android:text="https://www.youtube.com/watch?v=bsXaM4G4D_w"
+        android:textColor="@color/black"/>
+
+
+
+
+</LinearLayout>
